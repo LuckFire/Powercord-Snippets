@@ -1,0 +1,13 @@
+$blur-amount: blur(5px);
+$transition-speed: 0.5s;
+
+.channel-2QD9_O:not(#private-channels-0):not(#private-channels-1):not(#private-channels-2),
+.member-3-YXUe {
+    filter: $blur-amount;
+    transition: $transition-speed;
+
+    &.selected-aXhQR6, &:hover {
+        filter: blur(0);
+        transition: $transition-speed;
+    }
+}
