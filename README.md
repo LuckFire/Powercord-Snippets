@@ -1,2 +1,2 @@
-# Powercord-Snippets
-Some nice CSS and SASS snippets for Powercord.
+# Powercord Snippets
+Coming Soon:tm:
