@@ -16,6 +16,7 @@ $icon-color: var(--background-accent);
 /* Chatboxes Text Color */
 .placeholder-37qJjk {
     color: $text-color;
+    z-index: 1;
 }
 
 .scrollableContainer-2NUZem div .textArea-12jD-V div div {
