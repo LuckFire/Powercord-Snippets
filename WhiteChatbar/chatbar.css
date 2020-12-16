@@ -1,0 +1,54 @@
+$chatbox-background: #EBEDEF;
+$text-color: rgb(46, 51, 56); 
+$special-text-background: rgb(207, 207, 207);
+$icon-color: var(--background-accent);
+
+
+
+/* Chatboxes Background Color */
+.channelTextArea-rNsIhG div, /* Chatbox */
+.channelTextAreaUpload-3t7EIx div, /* Upload Chatbox */
+.channelTextArea-3bF57p div /* Editing Chatbox */ {
+    background-color: $chatbox-background;
+}
+
+
+/* Chatboxes Text Color */
+.placeholder-37qJjk {
+    color: $text-color;
+}
+
+.scrollableContainer-2NUZem div .textArea-12jD-V div div {
+    color: $text-color;
+    caret-color: $text-color;
+}
+
+
+/* Special Background (i.e. spoilers, code) */
+.before_inlineCode-1G9rTK, /* Spoilers, inline code */
+.inlineCode-2ngu6Y,
+.after_inlineCode-1KfVgj,
+.spoiler-2Iew8T {
+    background: $special-text-background;
+    color: $text-color;
+}
+
+.slateTextArea-1Mkdgw div .blockquoteDivider-2hH8H6 { /* Quotes */
+    background: rgb(199, 204, 209);
+}
+
+.codeBlockSyntax-2i-tMA,
+.codeBlockText-9TnoxQ { /* Codeblocks */
+    color: $text-color;
+}
+
+
+/* Icons */
+path.attachButtonPlus-jWVFah, /* Attach File Button */
+.buttons-3JBrkn button div div svg path, /* Gift Button */
+.buttons-3JBrkn .buttonContainer-28fw2U button div div svg path /* Other Buttons */ {
+    fill: var(--icon-color);
+}
+.sprite-2iCowe /* Emoji Picker */ {
+    filter: none !important;
+}
