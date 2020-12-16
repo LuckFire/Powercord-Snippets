@@ -1,0 +1,18 @@
+:root {
+    --blur-amount: blur(5px);
+    --transition-speed: 0.5s;
+}
+
+.channel-2QD9_O:not(.selected-aXhQR6):not(#private-channels-0):not(#private-channels-1):not(#private-channels-2),
+.member-3-YXUe:not(.selected-aXhQR6) {
+    filter: var(--blur-amount);
+    transition: var(--transition-speed);
+}
+
+.channel-2QD9_O.selected-aXhQR6,
+.channel-2QD9_O:hover,
+.member-3-YXUe.selected-aXhQR6,
+.member-3-YXUe:hover {
+    filter: blur(0);
+    transition: var(--transition-speed);
+}
